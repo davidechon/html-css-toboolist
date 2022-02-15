@@ -1,15 +1,16 @@
 /*
 Colori:
+sfondo body #f6f8f9
 sfondo header #ffffff
-sfondo main #f6f8f9
+button-grey #e9ecee
 button "blu" #47acf1
 button "viola" ##9c72e4
 button "verde/turchese" ##64c0a9
 button "arancio" ##f29e33
 button "fucsia" ##d863a1
 button "verde chiaro" ##b0c925
-segno di spunta verde
-segno di spunta rosso
+segno di spunta verde "check" &#10003;
+segno di spunta rosso "cross" &#10007;
 
 
 */
@@ -21,9 +22,76 @@ segno di spunta rosso
     box-sizing: border-box;
 }
 
+
+/* 
+ul li {
+    list-style-type: none;
+}
+.bullet{
+    color: green;
+    border: 1px solid gray;
+    padding: 2px;
+}
+*/
+
 /* General */
-.container{
-    width: 80%;
-    margin: 0 auto;
+body{
     background-color: #f6f8f9;
 }
+.container{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+header{
+    background-color: #fff;
+    height: 75px;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+.big-text {
+    font-size: 40px;
+    margin: 10px;
+}
+
+/* Navbar */
+.navbar{
+   border-bottom: 2px solid #f6f8f9;
+   width: 100%;
+   height: 70px;
+   padding: 10px 50px;
+}
+button {
+    height: 40px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button-blue {
+      margin: 5px;
+      padding: 10px;
+      display: inline-block;
+      text-align: center;
+      background-color: #47acf1;
+      color: white;
+      border-radius: 5px;
+    }
+  .button-grey {
+      margin: 5px;
+      padding: 10px;
+      display: inline-block;
+      text-align: center;
+      border: 1px solid #e9ecee;
+      color: #e9ecee;
+      border-radius: 5px;
+    }
