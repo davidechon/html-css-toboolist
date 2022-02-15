@@ -1,1 +1,29 @@
-body{background-color: red;}
+/*
+Colori:
+sfondo header #ffffff
+sfondo main #f6f8f9
+button "blu" #47acf1
+button "viola" ##9c72e4
+button "verde/turchese" ##64c0a9
+button "arancio" ##f29e33
+button "fucsia" ##d863a1
+button "verde chiaro" ##b0c925
+segno di spunta verde
+segno di spunta rosso
+
+
+*/
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f6f8f9;
+}
