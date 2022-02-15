@@ -1,21 +1,3 @@
-/*
-Colori:
-sfondo body #f6f8f9
-sfondo header #ffffff
-button-grey #e9ecee
-button "blu" #47acf1
-button "viola" ##9c72e4
-button "verde/turchese" ##64c0a9
-button "arancio" ##f29e33
-button "fucsia" ##d863a1
-button "verde chiaro" ##b0c925
-BLACK DOWN-POINTING SMALL TRIANGLE &#9662;
-segno di spunta verde "check" &#10003; #67c1ab
-segno di spunta rosso "cross" &#10007; #eb5851
-
-
-*/
-
 /* Reset */
 * {
     margin: 0;
@@ -28,17 +10,28 @@ body{
     background-color: #f6f8f9;
 }
 
-.button-grey {
-    margin: 5px;
-    padding: 10px;
-    display: inline-block;
+/* Button */
+.button {
+    height: 40px;
+    padding: 15px;
     text-align: center;
-    border: 1px solid #e9ecee;
-    color: #e9ecee;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     border-radius: 5px;
   }
 
-  .check{
+  .blue {
+      background-color: #47acf1;
+      color: white;
+    }
+.grey {
+    border: 1px solid #e9ecee;
+    color: #e9ecee;
+  }
+  
+/* Check Uncheck */
+.check{
     border: 1px solid #67c1ab;
     border-radius: 50%;
     color: #67c1ab;
@@ -55,6 +48,40 @@ body{
     font-size: 12px;
 }
 
+/* Categorie */
+.category{
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.editorial{
+    background-color: #47acf1;
+    color: white;
+}
+.goals{
+    background-color: #9c72e4;
+    color: white;
+}
+.recruiting{
+    background-color: #64c0a9;
+    color: white;
+}
+.mobile{
+    background-color: #f29e33;
+    color: white;
+}
+.website{
+    background-color: #d863a1;
+    color: white;
+}
+.sales{
+    background-color: #b0c925;
+    color: white;
+}
 
 /* Header */
 header{
@@ -87,38 +114,18 @@ header{
    height: 70px;
    padding: 10px 50px;
 }
-button {
-    height: 40px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
 
-  .button-blue {
-      margin: 5px;
-      padding: 10px;
-      display: inline-block;
-      text-align: center;
-      background-color: #47acf1;
-      color: white;
-      border-radius: 5px;
-    }
-
-
-    .task {
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-    .title-task {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .task ul li{
-        font-size: 18px;
-        list-style-type: none;
-        margin-top: 10px;
-    }
+/* Task */
+.task {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.title-task {
+    font-size: 20px;
+    font-weight: bold;
+}
+.task ul li{
+    list-style-type: none;
+    margin: 15px 0;
+}
