@@ -32,21 +32,26 @@ body{
 }
   
 /* Check Uncheck */
+.bullet {
+    color: green;
+    border: 1px solid green;
+    borer-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
 .check{
     border: 1px solid #67c1ab;
-    border-radius: 50%;
     color: #67c1ab;
-    margin-right: 10px;
-    padding: 3px;
-    font-size: 12px;
+    border-radius: 50%;
 }
 .cross{
     border: 1px solid #eb5851;
     border-radius: 50%;
     color: #eb5851;
-    margin-right: 10px;
-    padding: 3px;
-    font-size: 12px;
 }
 
 /* Categorie */
